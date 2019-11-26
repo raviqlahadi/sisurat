@@ -1,10 +1,12 @@
 <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form action="<?php echo site_url('auth/cek_user') ?>" method="post" class="login100-form validate-form">
+				<form action="<?php echo site_url('auth/cek_user') ?>" method="post" class="login100-form validate-form" style="padding-top:20px">
 					<span class="login100-form-title p-b-43">
-						<strong style="color:#E5294F">Coreigniter V.1</strong>
-						<p>Login Untuk Melanjutkan</p>
+						<img src="<?php echo base_url('assets/logo.png')?>" alt="">
+						<br>
+						<strong style="color:#03A9F4">SISURAT</strong>
+						<p>Sistem Informasi Surat Masuk Surat Keluar</p>
 					</span>
 
 
@@ -30,14 +32,14 @@
 
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" style="background-color:#E5294F!important">
+						<button class="login100-form-btn" style="background-color:#03A9F4!important">
 							Login
 						</button>
 					</div>
 
 				</form>
 
-				<div class="login100-more" style="background-image: url('<?php echo base_url('assets/auth/');?>images/bg-01.jpg');">
+				<div class="login100-more" style="background-image: url('<?php echo base_url('assets/auth/');?>images/bg-02.jpg');">
 				</div>
 			</div>
 		</div>
